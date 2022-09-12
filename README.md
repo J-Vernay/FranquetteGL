@@ -1,6 +1,9 @@
 # FranquetteGL - C software implementation of OpenGL
 
 FranquetteGL aims to be a usable implementation of modern OpenGL, done in software (as opposed to hardware graphic cards).
+
+**Documentation:** https://j-vernay.github.io/FranquetteGL/html/index.html
+
 Goals include, in order of priority:
 
 - Being educational on the inner workings of an OpenGL implementation
