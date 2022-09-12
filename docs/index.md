@@ -15,3 +15,4 @@ and for the implemented EGL/OpenGL/ES functions and types.
 ## Relevant links
 
 - [Public Headers](#headers): Which headers to include for which features?
+- [Naming conventions](#naming): Which identifiers are part of which interfaces?

@@ -1,0 +1,33 @@
+table.retval,
+table.params {
+    border-collapse: collapse;
+}
+
+table.retval tr,
+table.params tr {
+    border-bottom: 1px solid var(--separator-color);
+}
+
+table.retval td,
+table.params td {
+    padding: 5px 20px;
+}
+
+dl.user {
+    padding: var(--spacing-medium);
+    margin: var(--spacing-medium) 0;
+    overflow: hidden;
+    margin-left: 0;
+    border-radius: var(--border-radius-small);
+    background: var(--invariant-color);
+    border-left: 8px solid var(--invariant-color-dark);
+    color: var(--invariant-color-darker);
+}
+
+dl.user dt {
+    color: var(--invariant-color-dark);
+}
+
+p~ul {
+    margin-top: -1em;
+}

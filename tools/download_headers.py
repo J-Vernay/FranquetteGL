@@ -6,30 +6,37 @@ HEADERS = {
     "https://raw.githubusercontent.com/KhronosGroup/EGL-Registry/main/api/":
     [
         "KHR/khrplatform.h",
+        "EGL/eglplatform.h",
         "EGL/egl.h",
         "EGL/eglext.h",
-        "EGL/eglplatform.h",
     ],
     "https://raw.githubusercontent.com/KhronosGroup/OpenGL-Registry/main/api/":
     [
         "GL/glext.h",
         "GL/glcorearb.h",
 
+        "GLES/glplatform.h",
         "GLES/gl.h",
         "GLES/glext.h",
-        "GLES/glplatform.h",
         "GLES/egl.h",
 
+        "GLES2/gl2platform.h",
         "GLES2/gl2.h",
         "GLES2/gl2ext.h",
-        "GLES2/gl2platform.h",
 
+        "GLES3/gl3platform.h",
         "GLES3/gl3.h",
         "GLES3/gl31.h",
         "GLES3/gl32.h",
-        "GLES3/gl3platform.h",
     ]
 }
+
+HEADER_PREFIX = b"""
+/// @file {header}
+/// @author Khronos Group
+/// @copyright Under GNU General Public License v3 or later.
+/// @brief Common API definitions required for everything else.
+"""
 
 def main():
     if not Path("include/FranquetteGL").exists():
